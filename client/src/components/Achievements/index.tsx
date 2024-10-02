@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Achievements = () => {
     const achievements = [

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../../../public/Photo.jpg'
 
 export const Home = () => {
@@ -33,13 +33,13 @@ export const Home = () => {
     }, [charIndex, roleIndex, roles]);
 
     return (
-        <div className='flex flex-col lg:flex-row items-center justify-center h-full my-10 overflow-x-hidden gap-10 lg:gap-28 p-10 lg:px-32'>
+        <div className='flex flex-col lg:flex-row items-center justify-center h-full py-5 pb-20 overflow-x-hidden gap-10 lg:gap-28 md:p-10 lg:px-32'>
             <div className='flex flex-col gap-2 animate-slide-in-left lg:w-1/2'>
-                <h1 className='text-2xl'>Hello 👋, I'm</h1>
-                <h1 className='text-5xl font-bold text-[#ffd2fb]'>{displayedName}</h1>
+                <h1 className='text-xl md:text-2xl'>Hello 👋, I'm</h1>
+                <h1 className='text-2xl md:text-5xl font-bold text-[#ffd2fb]'>{displayedName}</h1>
                 <div className='flex flex-row justify-start'>
-                    <h3 className='my-5 text-xl'>
-                        I'm a <span className='font-bold text-3xl text-[#d4e6ff]'>{displayedText}</span>
+                    <h3 className='my-2 text-xl'>
+                        I'm a <span className='font-bold text-2xl md:text-3xl text-[#d4e6ff]'>{displayedText}</span>
                     </h3>
                 </div>
             </div>

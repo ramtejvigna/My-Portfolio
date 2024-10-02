@@ -1,7 +1,6 @@
 import { GiAchievement } from "react-icons/gi";
 import { FaCode } from "react-icons/fa6";
 import { Reveal } from "../Reveal";
-import React from "react";
 
 export const About = () => {
     const cgpa: number = 8.51;
@@ -27,17 +26,17 @@ export const About = () => {
     ]
 
     return (
-        <div className='flex flex-col flex-1 items-center mx-40 p-10 overflow-hidden '>
+        <div className='flex flex-col items-center overflow-hidden'>
             <h1 className="text-2xl font-bold text-[#ffd2fb]">About Me</h1>
-            <div className="flex flex-row flex-1 items-center justify-around w-full py-10">
+            <div className="flex flex-col md:flex-row items-center justify-around w-full py-10">
                 <Reveal>
-                    <div className="w-5/6 animate-slide-in-left">
+                    <div className="p-10 md:p-20 animate-slide-in-left">
                         <img src="../../../Photo2.jpg" alt="Profile" className="mx-auto rounded-xl" />
                     </div>
                 </Reveal>
 
-                <div className="flex flex-col flex-1 p-4 gap-10 animate-slide-in-right">
-                    <div className="flex flex-row gap-10 justify-center">
+                <div className="flex flex-col flex-1 p-10 md:p-40 md:py-10 md:pl-12 gap-10 animate-slide-in-right w-full">
+                    <div className="flex flex-col ml-14 md:ml-0 md:flex-row gap-10 w-full ">
                         {cards.map((card, index) => {
                             return (
                                 <Reveal>

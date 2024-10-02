@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Reveal } from '../Reveal';
-import { IoNavigateOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
 export const Projects = () => {
@@ -85,7 +84,7 @@ export const Projects = () => {
     };
 
     return (
-        <div className='flex flex-col items-center mx-40 p-10'>
+        <div className='flex flex-col items-center lg:mx-40 p-10'>
             <h1 className="text-2xl font-bold text-[#ffd2fb]">PROJECTS</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 w-full">
                 {projects.map((project, index) => (
@@ -104,7 +103,7 @@ export const Projects = () => {
                             <p className="text-sm text-gray-300 mt-2">{project.description}</p>
 
                             {/* View Details on Hover */}
-                            <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div className="md:block absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-white text-lg">View Details</p>
                             </div>
                         </div>

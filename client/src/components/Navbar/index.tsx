@@ -12,20 +12,20 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     return (
         <>
-            <div className="flex flex-row p-6 px-12 justify-between">
+            <div className="flex flex-row p-6 px-12 items-center justify-between">
                 <NavHashLink smooth to="#home">
-                    <h3 className="heading text-white font-semibold text-4xl">Vigna Ramtej</h3>
+                    <h3 className="heading text-white font-semibold text-2xl lg:text-4xl inline-flex gap-1"><span>Vigna</span><span>Ramtej</span></h3>
                 </NavHashLink>
                 <a href="../../../Resume (3).pdf" target="_blank" rel="noopener noreferrer">
-                    <button className="bg-white flex flex-row items-center gap-2 text-sm md:text-lg p-3 rounded-xl mx-24">
+                    <button className="bg-white flex flex-row items-center gap-2 text-lg p-3 rounded-xl mx-24">
                         <SiReaddotcv />
-                        <p>My Resume</p>
+                        <p className="text-sm md:text-lg">Resume</p>
                     </button>
                 </a>
             </div>
 
             {/* Mobile Navbar */}
-            <nav className="fixed bottom-5 left-10 right-4 w-3/4 md:hidden flex flex-row items-center justify-around text-lg text-white bg-white bg-opacity-10 backdrop-blur-lg p-2 px-3 rounded-full shadow-lg border border-white/30">
+            <nav className="z-20 fixed bottom-5 left-10 right-4 w-3/4 md:hidden flex flex-row items-center justify-around text-lg text-white bg-white bg-opacity-10 backdrop-blur-lg p-2 px-3 rounded-full shadow-lg border border-white/30">
                 <NavHashLink
                     smooth
                     to="#home"

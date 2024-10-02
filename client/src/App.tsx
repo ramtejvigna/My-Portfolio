@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <div className="bg-black min-h-screen">
+      <div className="bg-black min-h-screen overflow-x-hidden">
         {/* Pass the activeSection and setActiveSection as props to Navbar and Main */}
         <Navbar activeSection={activeSection} />
         <Main setActiveSection={setActiveSection} />

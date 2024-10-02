@@ -1,9 +1,8 @@
-import React from 'react';
 import { Reveal } from '../Reveal';
 
 export const Contact = () => {
     return (
-        <div className='flex flex-col items-center mx-40 p-10 overflow-hidden'>
+        <div className='flex flex-col items-center p-10 overflow-hidden'>
             <h1 className="text-2xl font-bold text-[#ffd2fb] mb-10">CONTACT ME</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 w-full'>
 
@@ -38,22 +37,22 @@ export const Contact = () => {
                 </Reveal>
 
                 {/* Message me section */}
-                <div className='p-8 rounded-lg shadow-lg animate-slide-in-right text-center'>
+                <div className='rounded-lg shadow-lg animate-slide-in-right text-center pb-10 md:px-20 md:pl-10'>
                     <h2 className='text-xl text-center text-white font-semibold mb-10'>Message me</h2>
-                    <form className='flex flex-col space-y-4'>
+                    <form className='flex flex-col space-y-4 md:p-4 items-center'>
                         <input
                             type="text"
                             placeholder="Enter name"
-                            className="p-4 bg-slate-900 border-2 border-[#a2a2a2e6] bg-opacity-40 backdrop-blur-lg text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb]"
+                            className="p-4 bg-slate-900 w-full border-2 border-[#a2a2a2e6] bg-opacity-40 backdrop-blur-lg text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb]"
                         />
                         <input
                             type="email"
                             placeholder="Enter email"
-                            className="p-4 bg-slate-900 bg-opacity-40 backdrop-blur-lg border-2 border-[#a2a2a2e6] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb]"
+                            className="p-4 bg-slate-900 bg-opacity-40 w-full backdrop-blur-lg border-2 border-[#a2a2a2e6] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb]"
                         />
                         <textarea
                             placeholder="Write your message here"
-                            className="p-4 bg-slate-900 bg-opacity-40 backdrop-blur-lg border-2 border-[#a2a2a2e6] text-white h-32 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb] resize-none"
+                            className="p-4 bg-slate-900 bg-opacity-40 w-full backdrop-blur-lg border-2 border-[#a2a2a2e6] text-white h-32 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffd2fb] resize-none"
                         />
 
                         <button
