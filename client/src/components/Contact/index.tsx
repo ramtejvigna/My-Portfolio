@@ -8,8 +8,8 @@ export const Contact = () => {
 
                 {/* Talk to me section */}
                 <Reveal>
-                    <div className='flex flex-col space-y-6'>
-                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex flex-col justify-between items-center'>
+                    <div className='flex flex-col space-y-6 items-center'>
+                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex w-full md:w-2/3 flex-col justify-between items-center'>
                             <h2 className='text-xl text-white font-semibold mb-4'>LinkedIn</h2>
                             <p className='text-gray-400 mb-4'>vignaramtej</p>
                             <a href="https://linkedin.com/in/vignaramtej" target="_blank" rel="noopener noreferrer"
@@ -17,7 +17,7 @@ export const Contact = () => {
                                 Write me
                             </a>
                         </div>
-                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex flex-col justify-between items-center'>
+                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex w-full md:w-2/3 flex-col justify-between items-center'>
                             <h2 className='text-xl text-white font-semibold mb-4'>Email</h2>
                             <p className='text-gray-400 mb-4'>vignaramtejtelagarapugmail.com</p>
                             <a href="mailto:vignaramtejtelagarapugmail.com"
@@ -25,7 +25,7 @@ export const Contact = () => {
                                 Write me
                             </a>
                         </div>
-                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex flex-col justify-between items-center'>
+                        <div className='bg-slate-900 bg-opacity-40 backdrop-blur-lg p-6 rounded-lg shadow-lg flex w-full md:w-2/3 flex-col justify-between items-center'>
                             <h2 className='text-xl text-white font-semibold mb-4'>WhatsApp</h2>
                             <p className='text-gray-400 mb-4'>9032149776</p>
                             <a href="https://wa.me/9032149776" target="_blank" rel="noopener noreferrer"
