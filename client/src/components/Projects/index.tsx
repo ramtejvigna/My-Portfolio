@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Reveal } from '../Reveal';
 import { Link } from 'react-router-dom';
 
