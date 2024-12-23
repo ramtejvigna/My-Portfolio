@@ -43,8 +43,8 @@ export const Home = () => {
                     </h3>
                 </div>
             </div>
-            <div className='animate-slide-in-right w-full lg:w-1/2 flex flex-col items-center'>
-                <img src="../../../Photo.jpg" alt="Profile" className='w-3/4 rounded-xl' />
+            <div className='animate-slide-in-right mx-20 w-full lg:w-1/2 flex flex-col items-center'>
+                <img src="Me.jpg" alt="Profile" className='w-3/4 rounded-xl' />
             </div>
         </div>
     );

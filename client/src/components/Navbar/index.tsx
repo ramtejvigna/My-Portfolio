@@ -16,7 +16,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 <NavHashLink smooth to="#home">
                     <h3 className="heading text-white font-semibold text-2xl lg:text-4xl inline-flex gap-1"><span>Vigna</span><span>Ramtej</span></h3>
                 </NavHashLink>
-                <a href="../../../Resume (3).pdf" target="_blank" rel="noopener noreferrer">
+                <a href="Resume5.pdf" target="_blank" rel="noopener noreferrer">
                     <button className="bg-white flex flex-row items-center gap-2 text-lg p-3 rounded-xl mx-24">
                         <SiReaddotcv />
                         <p className="text-sm md:text-lg">Resume</p>
